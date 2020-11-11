@@ -1,0 +1,64 @@
+
+
+
+
+         BRAC UNIVERSITY - Department of Computer Science and Engineering
+
+		    
+                    ------------------------------------
+                    --  CSE260: DIGITAL LOGIC DESIGN  --
+                    --  LAB FINAL PROJECT SIMULATION  --
+                    ------------------------------------
+
+
+
+
+                          Section - 14; Group - 5;
+
+
+Group Members:
+
+1) 19101541  - Avinandan Banerjee
+2) 19101459  - Rifah Tasmiah Islam
+3) 19101497  - Samin Ahsan
+4) 19101353  - Mehzabin Sadat Aothoi
+5) 19101134  - Tabassum Tanzim Nawar
+
+
+----------------------------------------------------------------------------------
+
+Project Title: Emergency Alarm System
+
+Description:
+An alarm system featuring Fire detection, IR based obstacle detection and switch 
+input activation. This system is mostly intended for emergency situations at 
+commercial and industrial buildings.
+
+
+----------------------------------------------------------------------------------
+
+
+NOTES:
+
+* Open-source libraries from "https://www.theengineeringprojects.com/" were used 
+  for the components that were not included among the pre-installed library of 
+  Proteus 8 Professional.
+
+* "LIBRARY FILES" is the folder containing the library files of the modules used.
+  Please copy them onto the Proteus Library of your computer before testing.
+  Default location: "C:\Program Files (x86)\Labcenter Electronics\Proteus 8 Professional\DATA\LIBRARY"
+  Use your version of Proteus instead of "Proteus 8 Professional" in case your 
+  version is different.
+
+* "260 Project.pdsprj" is the proteus project file containing the setup. Please 
+  copy the Library files before opening this file in proteus. Next, you will have 
+  to select the necessary HEX files for Arduino uno board (ARD1), Flame sensor 
+  (FLAME1) and Infrared obstacle sensor (IR1).
+
+* "HEX files" folder contains the necessary HEX files for the Proteus components -
+  "CSE260_Alarm_Project.ino.HEX"  -  for arduino uno board
+  "FlameSensorTEP.HEX"  -  for the flame sensor module
+  "InfraredSensorsTEP.HEX"  - for the infrared sensor module
+
+* "CSE260_Alarm_Project" folder contains the Arduino code and the hex file 
+  created from that code.
